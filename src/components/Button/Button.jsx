@@ -6,6 +6,7 @@ export const Button = ({buttonValue}) => {
     return (
         <StyledButton>
             <Link to={navPlace}>{value}</Link>
+            <div>Salut cest un test pour git</div>
         </StyledButton>
     )
 }
