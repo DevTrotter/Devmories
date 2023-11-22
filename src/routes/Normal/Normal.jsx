@@ -1,5 +1,4 @@
 import { GameArea } from "../../components/GameArea/GameArea";
-import { GameHeader } from "../../components/GameHeader/GameHeader"
 import StyledNormal from "./StyledNormal"
 
 export const Normal = () => {
@@ -7,7 +6,6 @@ export const Normal = () => {
     const shuffledCardArray = cardArray.sort((a, b) => 0.5 - Math.random());
     return (
         <StyledNormal>
-            <GameHeader/>
             <GameArea cardArray={shuffledCardArray}/>
         </StyledNormal>
     )

@@ -1,11 +1,11 @@
 import StyledGameHeader from './StyledGameHeader'
 import { MdOutlineReplay } from "react-icons/md";
 
-export const GameHeader = () => {
+export const GameHeader = ({numberTry}) => {
     return (
         <StyledGameHeader>
             <div className='try-number'>
-                1
+                {numberTry}
             </div>
             <div className='time-counter'>
                 1:1:1

@@ -9,6 +9,12 @@ const StyledCard = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    img{
+        width: 110%;
+        height: 100%;
+        border-radius: 12px;
+    }
 `
 
 export default StyledCard

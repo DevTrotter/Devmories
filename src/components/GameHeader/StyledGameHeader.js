@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 
 const StyledGameHeader = styled.header`
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 450px/2 );
     width: 450px;
     height: 94px;
     display: flex;
