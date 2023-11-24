@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
 import StyledButton from './StyledButton'
 
-export const Button = ({buttonValue}) => {
+export const Button = ({buttonValue, unavailable}) => {
     const {value, navPlace} = buttonValue
     return (
-        <StyledButton>
+        <StyledButton unavailable={unavailable}>
             <Link to={navPlace}>{value}</Link>
         </StyledButton>
     )

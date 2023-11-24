@@ -20,6 +20,10 @@ const StyledGameHeader = styled.header`
         align-items: center;
         justify-content: center;
     }
+
+    .replay{
+        cursor: pointer;
+    }
 `
 
 export default StyledGameHeader

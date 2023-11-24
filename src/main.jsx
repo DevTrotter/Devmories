@@ -4,7 +4,6 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { Home } from './routes/Home/Home.jsx';
-import { Pvp } from './routes/Pvp/Pvp.jsx';
 import { Normal } from './routes/Normal/Normal.jsx';
 import 'sanitize.css';
 import "./main.css";
@@ -17,10 +16,6 @@ const router = createBrowserRouter([
   {
     path: "/normal",
     element: <Normal/>,
-  },
-  {
-    path: "/pvp",
-    element: <Pvp/>,
   },
 ]);
 

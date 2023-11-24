@@ -8,7 +8,7 @@ export const Home = () => {
             <h1>Devmories</h1>
             <div>
                 <Button buttonValue={buttonValue.pve}/>
-                <Button buttonValue={buttonValue.pvp}/>
+                <Button buttonValue={buttonValue.pvp} unavailable/>
             </div>
         </StyledHome>
     )
