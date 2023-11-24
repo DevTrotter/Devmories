@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const StyledButton = styled.div`
-    background-color: #d670ff;
+    background-color: ${({unavailable}) => unavailable ? 'rgba(214, 112, 255, 0.3)' : 'rgba(214, 112, 255, 1)'};
     border-radius: 6px;
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
     margin: 24px;
 
 
@@ -26,6 +26,7 @@ const StyledButton = styled.div`
         text-decoration: none;
         box-shadow: 0 1px 2px rgba(0,0,0,0.15);
         transition: 300ms;
+        cursor: ${({unavailable}) => unavailable ? 'not-allowed' : 'pointer'};
     }
 `
 

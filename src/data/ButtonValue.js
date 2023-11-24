@@ -5,6 +5,6 @@ export const buttonValue = {
     },
     pvp: {
         value: 'Progressif',
-        navPlace: "/pvp"
+        navPlace: ""
     }
 }
